@@ -1,13 +1,13 @@
 console.log("hhh");
 
 // alert(window.orientation);
+hengshuping();
 
 function hengshuping() {
     if (window.orientation == 180 || window.orientation == 0) {
         // alert("竖屏状态！");
         document.getElementById("OriOutput").innerHTML = "竖屏状态！";
-    }
-    if (window.orientation == 90 || window.orientation == -90) {
+    } else if (window.orientation == 90 || window.orientation == -90) {
         // alert("横屏状态！");
         document.getElementById("OriOutput").innerHTML = "横屏状态！";
     }
