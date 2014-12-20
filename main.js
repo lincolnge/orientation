@@ -1,7 +1,11 @@
 console.log("hhh");
 
 // alert(window.orientation);
-hengshuping();
+if (window.orientation == 180 || window.orientation == 0) {
+    document.getElementById("OriOutput").innerHTML = "竖屏状态！";
+} else if (window.orientation == 90 || window.orientation == -90) {
+    document.getElementById("OriOutput").innerHTML = "横屏状态！";
+}
 
 function hengshuping() {
     if (window.orientation == 180 || window.orientation == 0) {
