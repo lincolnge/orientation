@@ -1,0 +1,9 @@
+body {
+	font-size: 16px;
+}
+.mainbody {
+    text-align: center;
+}
+.mainbody p {
+	font-size: 1em;
+}
